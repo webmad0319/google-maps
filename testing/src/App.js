@@ -1,12 +1,11 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import RubenMola from './RubenMola';
+import SimpleMap from './SimpleMap';
 
 function App() {
   return (
     <div className="App">
-      <RubenMola></RubenMola>
+      <SimpleMap API_KEY="tuAPIKeyAqui"></SimpleMap>
     </div>
   );
 }
